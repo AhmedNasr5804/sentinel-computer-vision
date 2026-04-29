@@ -1,0 +1,28 @@
+# Generated data and model outputs
+datasets/
+processed/
+archive/
+sentinel_dataset/real/
+sentinel_dataset/synthetic/
+
+# Notebook and Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Windows metadata files
+*.Zone.Identifier
+
+# Common model/data artifacts
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.npy
+*.npz
+
+# Local environments and editor files
+.venv/
+venv/
+env/
+.DS_Store
