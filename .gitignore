@@ -11,7 +11,12 @@ __pycache__/
 *.pyc
 
 # Windows metadata files
-*.Zone.Identifier
+*:Zone.Identifier
+
+# Legacy workspace-only files
+.claude/
+01_dataset_generator.ipynb
+CLAUDE.md
 
 # Common model/data artifacts
 *.pth
@@ -26,3 +31,9 @@ __pycache__/
 venv/
 env/
 .DS_Store
+
+# Generated dataset helpers
+sentinel_dataset/labels/
+sentinel_dataset/labels_*.json
+sentinel_dataset/qa_synthetic_samples.png
+sentinel_dataset/steering_error_distribution.png
